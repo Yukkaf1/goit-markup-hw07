@@ -1,0 +1,25 @@
+/*фильтры портфолио*/
+
+.portfolio-filter {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+  }
+  
+  .portfolio-filter .portfolio-filter__item + .portfolio-filter__item {
+   margin-left: 8px;
+  }
+  
+  .portfolio-filter__btn {
+  transition: 250ms box-shadow cubic-bezier(0.4, 0, 0.2, 1),
+  250ms background-color cubic-bezier(0.4, 0, 0.2, 1),
+  250ms color cubic-bezier(0.4, 0, 0.2, 1);
+  
+  &:hover,
+  &:focus {
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+  background-color: var(--accent-color);
+  color: var(--primary-white-color);}
+}
+  
+  
