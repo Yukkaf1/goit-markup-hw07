@@ -3,14 +3,14 @@
     padding-top: 0px;
   }
   
-  .services-list {
+.services-list {
     display: flex;
     flex-wrap: wrap;
     gap: var(--indent);
   
   }
   
-  .services-list__item {
+.services-list__item {
   --items: 3;
   
   position: relative;
@@ -21,7 +21,7 @@
   
   }
   
-  .services-list__p-like {
+.services-list__p-like {
   color: var(--primary-white-color);
   text-transform: uppercase;
   font-weight: 700;

@@ -13,17 +13,16 @@
     width: 100%;
     height: 120px;
     outline: none;
-  }
-  
-  .form-messege::placeholder {
+
+    &::placeholder {
     
-    font-weight: 400;
-    font-size: 14px;
-  
-    letter-spacing: 0.01em;
-    color: rgba(117, 117, 117, 0.5);
+      font-weight: 400;
+      font-size: 14px;
+    
+      letter-spacing: 0.01em;
+      color: rgba(117, 117, 117, 0.5);
+    }
   }
-  
   
   .callback-form {
     display: flex;
@@ -74,12 +73,13 @@
   
     background-color: curent;
     outline: none;
+
+    &:focus ~ .form-icon {
+      fill: var(--accent-color);
+     
+    }
   }
   
-  .form-input:focus ~ .form-icon {
-    fill: var(--accent-color);
-   
-  }
   
   .form-input:focus,
   textarea:focus {

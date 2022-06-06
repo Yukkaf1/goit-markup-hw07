@@ -7,7 +7,7 @@
     gap: var(--indent);
   }
   
-  .portfolio-list__item {
+.portfolio-list__item {
   
     outline: 1px solid var(--border-color);
   
@@ -30,7 +30,7 @@
     }
   }
   
-  .portfolio-thumb {
+.portfolio-thumb {
     display: flex;
     position: relative;
   
@@ -55,7 +55,7 @@
   
   
   
-  .portfolio-thumb__text {
+.portfolio-thumb__text {
   color: var(--primary-white-color);
   font-weight: 400;
   font-size: 18px;
@@ -76,12 +76,12 @@
   
 
   
-  .portfolio-card {
+.portfolio-card {
     width: 370px;
     padding: 20px 24px;
   }
   
-  .portfolio-card__h3-like {
+.portfolio-card__h3-like {
     color: var(--primary-text-color);
     font-weight: 700;
     font-size: 18px;
@@ -90,7 +90,8 @@
   
     margin-bottom: 4px;
   }
-  .portfolio-card__card-text {
+
+.portfolio-card__card-text {
     color: var(--secondary-text-color);
     font-weight: 400;
     font-size: 16px;
