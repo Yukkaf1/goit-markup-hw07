@@ -695,11 +695,10 @@ textarea::placeholder {
 }
 
 /*Блок header mailto + tel*/
-/*.address-nav {
-      display: flex;
-      align-items: center;
-      
-    }*/
+.address-nav {
+  margin-left: auto;
+}
+
 .address-nav__list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -707,8 +706,7 @@ textarea::placeholder {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-left: auto;
-  min-width: 634px;
+  margin: 0;
 }
 
 .address-nav__item {
