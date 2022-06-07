@@ -93,16 +93,17 @@
     
     /*Блок header mailto + tel*/
     
-    .address-nav {
+    /*.address-nav {
       display: flex;
       align-items: center;
-      margin-left: auto;
-    }
+      
+    }*/
     
     .address-nav__list {
       display: flex;
       align-items: center;
-      margin: 0;
+      margin-left: auto;
+     /* min-width: 634px ;*/
     }
     
     .address-nav__item {

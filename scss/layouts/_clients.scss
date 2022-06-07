@@ -27,10 +27,7 @@
   border: 1px solid var(--accent-color);
   }
 
-  &:hover .clients-icon,
-  &:focus .clients-icon {
-    fill: var(--accent-color);
-    }
+  
 }
   
 .clients-section__item {
@@ -42,6 +39,12 @@
   
 .clients-icon {
     fill: var(--icon-color);
-    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1)
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  
+.clients-section__link:hover &,
+.clients-section__link:focus & {
+      fill: var(--accent-color);
+      }
+  
   }
   

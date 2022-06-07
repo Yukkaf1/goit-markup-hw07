@@ -57,17 +57,18 @@ body {
   margin-bottom: 50px;
 }
 
+/*
 .section h3 {
-  color: var(--primary-text-color);
-  font-weight: 500;
-  font-size: 16px;
-}
-
+    color: var(--primary-text-color);
+    font-weight: 500;
+    font-size: 16px;
+    }
+    
 .section p {
-  color: var(--secondary-text-color);
-  font-weight: 400;
-}
-
+      color: var(--secondary-text-color);
+      font-weight: 400;
+      }
+*/
 /* Контейнер*/
 .container {
   width: 1200px;
@@ -694,16 +695,11 @@ textarea::placeholder {
 }
 
 /*Блок header mailto + tel*/
-.address-nav {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  margin-left: auto;
-}
-
+/*.address-nav {
+      display: flex;
+      align-items: center;
+      
+    }*/
 .address-nav__list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -711,7 +707,8 @@ textarea::placeholder {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin: 0;
+  margin-left: auto;
+  min-width: 634px;
 }
 
 .address-nav__item {
@@ -936,11 +933,6 @@ textarea::placeholder {
           align-items: center;
 }
 
-.clients.list h3 {
-  margin-top: 30px;
-  margin-bottom: 10px;
-}
-
 .clients-section__link {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -963,11 +955,6 @@ textarea::placeholder {
   border: 1px solid var(--accent-color);
 }
 
-.clients-section__link:hover .clients-icon,
-.clients-section__link:focus .clients-icon {
-  fill: var(--accent-color);
-}
-
 .clients-section__item:not(:last-child) {
   margin-right: 30px;
 }
@@ -976,6 +963,11 @@ textarea::placeholder {
   fill: var(--icon-color);
   -webkit-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.clients-section__link:hover .clients-icon,
+.clients-section__link:focus .clients-icon {
+  fill: var(--accent-color);
 }
 
 /*фильтры портфолио*/
